@@ -1,0 +1,24 @@
+{
+  "name": "keypair",
+  "version": "0.0.0",
+  "private": true,
+  "author": "NaviOcean",
+  "email": "navi.ocean@outlook.com",
+  "scripts": {
+    "start": "NODE_ENV=production && node ./bin/www",
+    "dev": "NODE_ENV=development && nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "lodash": "^4.17.10",
+    "morgan": "~1.9.0",
+    "stellar-sdk": "^0.8.1",
+    "winston": "^3.0.0-rc6"
+  }
+}
